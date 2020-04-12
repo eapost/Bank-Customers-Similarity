@@ -1,4 +1,4 @@
-# BankCustomersSimilarity
+# Bank-Customers-Similarity
 
 The goal of this assignment is to implement a simple workflow that will assess the similarity between bank customers and suggest for any input customer a list of his/her 10 most similar other customers. In order to compute the similarity between customers you will have to create the dissimilarity matrix for every given attribute as discussed in lecture “Measuring Data Similarity”. In order to fulfill this assignment, you will have to perform the following tasks:
 
@@ -14,7 +14,8 @@ In order to measure the similarity between the bank customers you will form the 
 
 Using the dissimilarity matrix computed from the previous step, you will calculate the 10-NN (most similar) to the customers listed below (customer id=line number in the csv file starting from line 2):
 1230, 5032, 10001, 24035, 28948, 35099, 37693, 39543, 40002, 42192
-For this task your script must take as input the customer-id and return the list of her 10 nearest neighbors (excluding the given customer)
+
+For this task your script must take as input the customer-id and return the list of her 10 nearest neighbors (excluding the given customer).
 
 Assignment handout:
 
